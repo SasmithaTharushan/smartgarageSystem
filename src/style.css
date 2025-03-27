@@ -1,0 +1,107 @@
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("pexels-alexmaksin55-8776075.jpg");
+    font-family: 'Arial', sans-serif;
+    background-color: #003f5c;
+    color: #333;
+}
+
+button {
+    background-color: transparent; /* Green */
+    border: none;
+    color: #1b2380;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Optional: For rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: red; /* Darker green */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+
+/* Header styles */
+header {
+    background-color: #003f5c;
+    color: white;
+    border-radius: 50px 10px;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Main container */
+.smart-garage {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 60px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Data section styles */
+.data-section {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Data card styles */
+.data-item {
+    background-color: #dff9fb;
+    border: 1px solid #c7ecee;
+    border-radius: 8px ;
+    padding: 1.3rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-item .label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1e3799;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.data-item .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a69bd;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .data-item {
+        padding: 1rem;
+    }
+
+    .data-item .value {
+        font-size: 1.2rem;
+    }
+}
