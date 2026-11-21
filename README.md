@@ -113,20 +113,4 @@ flowchart TD
 
 ---
 
-## ☁️ Deploying to Vercel
 
-1. Push your changes to GitHub:
-   ```bash
-   git add .
-   git commit -m "feat: upgrade to GarageOS with interactive sandbox & vehicle ledger"
-   git push origin main
-   ```
-2. Go to [vercel.com](https://vercel.com) and click **"Add New Project"**.
-3. Import `smartgarageSystem` from your GitHub account.
-4. Keep the default settings (Framework preset: **Create React App**, Build command: `npm run build`, Output directory: `build`).
-5. Click **Deploy** — your live application will be available in less than 2 minutes!
-
----
-
-## 👤 Author
-Developed with ❤️ by **[Sasmitha Tharushan](https://github.com/SasmithaTharushan)**.
